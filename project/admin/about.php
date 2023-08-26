@@ -13,7 +13,7 @@
 <body>
 	
 	<?php include('conf.php')?>
-	<h3><a href="#">Just One Time Add Data</a></h3>
+	<h3><a href="add/about.php">Just One Time Add Data</a></h3>
 	<table class="table">
 	<thead>
 	<tr>
