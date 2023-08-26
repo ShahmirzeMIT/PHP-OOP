@@ -59,3 +59,12 @@ class Select extends Connection{
 		return mysqli_fetch_assoc($result);
 	}
 }
+
+class Name extends Connection{
+	public function name($id){
+		$result=mysqli_query($this->conn,"SELECT * FROM `sign` WHERE `id`='$id'");
+		$row=mysqli_fetch_assoc($result);
+
+		return $row['name'];
+	}
+}
